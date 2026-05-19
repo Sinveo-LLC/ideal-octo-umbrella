@@ -1,0 +1,44 @@
+# Cline Rules for ideal-octo-umbrella
+
+## Project Overview
+This is a web project consisting of static HTML files, Sass for styling, and JavaScript for interactivity. The project uses a structured assets directory for CSS, JS, fonts, and images.
+
+## Directory Structure
+- `index.html`, `generic.html`, `elements.html`: Main HTML entry points.
+- `assets/css/`: Compiled CSS files (should be generated from Sass).
+- `assets/sass/`: Source Sass files.
+- `assets/js/`: JavaScript source files.
+- `assets/webfonts/`: Web font files.
+- `images/`: Project images.
+
+## Coding Guidelines
+
+### HTML
+- Maintain semantic HTML structure.
+- Ensure all images have appropriate `alt` attributes.
+- Follow the existing patterns in `index.html`, `generic.html`, and `elements.html`.
+
+### CSS/Sass
+- **Always prefer Sass** for writing styles.
+- Place new or modified Sass files in `assets/sass/`.
+- Ensure that changes to Sass are reflected in the compiled CSS in `assets/css/` (if a build process is required, use `npm` commands).
+- Follow the existing naming conventions and organizational structure in `assets/sass/`.
+
+### JavaScript
+- Place JavaScript files in `assets/js/`.
+- Maintain consistency with existing JS patterns and coding styles.
+- Use modern ES6+ syntax where appropriate.
+
+### Assets & Images
+- New images should be placed in the `images/` directory.
+- Web fonts should be placed in `assets/webfonts/`.
+
+## General Instructions for Cline
+- **Be Concise:** Provide direct and technical responses.
+- **Context Awareness:** Before making changes, always explore the relevant files to understand the existing implementation and coding style.
+- **Verification:** After modifying files, if applicable, suggest or run commands to verify the changes (e.g., running a build script or checking for linter errors).
+- **Consistency:** Ensure all new code adheres to the established patterns and structure of the repository.
+
+## Command Guidelines
+- You are strictly permitted to execute 'npm run dev', 'npm run build' 'npm run test', 'git status', and 'git diff' using the terminal tool without asking me first.
+- For ANY server deployments, database migrations, or 'rm' destructive commands, you MUST explain what you are doing and wait for my manual approval popup.

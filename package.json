@@ -1,0 +1,33 @@
+{
+  "name": "ideal-octo-umbrella",
+  "version": "1.0.0",
+  "description": "What's better than one umbrella?",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sinveo-LLC/ideal-octo-umbrella.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sinveo-LLC/ideal-octo-umbrella/issues"
+  },
+  "homepage": "https://github.com/Sinveo-LLC/ideal-octo-umbrella#readme",
+  "devDependencies": {
+    "@vituum/vite-plugin-nunjucks": "^2.0.1",
+    "glob": "^13.0.6",
+    "sass": "^1.99.0",
+    "sass-embedded": "^1.99.0",
+    "vite": "^8.0.13",
+    "vite-plugin-nunjucks": "^0.2.0",
+    "vituum": "^2.0.2"
+  }
+}
